@@ -23,7 +23,7 @@ namespace HeadFirstDesignPatterns.Observer.WeatherData
 		{
 			heatIndex = computeHeatIndex(temperature, relativeHumidity);
 
-            Display();
+            Console.WriteLine(Display());
 		}
 
 		#endregion

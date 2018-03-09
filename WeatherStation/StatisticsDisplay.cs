@@ -52,7 +52,7 @@ namespace HeadFirstDesignPatterns.Observer.WeatherData
 				minTemp = temperature;
 			}
 
-            Display();
+            Console.WriteLine(Display());
 		}
 
 		#endregion
