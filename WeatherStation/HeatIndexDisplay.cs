@@ -22,6 +22,8 @@ namespace HeadFirstDesignPatterns.Observer.WeatherData
 		public void Update(float temperature, float relativeHumidity, float pressure)
 		{
 			heatIndex = computeHeatIndex(temperature, relativeHumidity);
+
+            Display();
 		}
 
 		#endregion

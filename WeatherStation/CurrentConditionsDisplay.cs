@@ -25,6 +25,8 @@ namespace HeadFirstDesignPatterns.Observer.WeatherData
 			this.temperature = temperature;
 			this.humidity = humidity;
 			this.pressure = pressure;
+
+            Display();
 		}
 
 		#endregion

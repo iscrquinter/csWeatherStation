@@ -24,6 +24,8 @@ namespace HeadFirstDesignPatterns.Observer.WeatherData
 		{
 			lastPressure = currentPressure;
 			currentPressure = pressure;
+
+            Display();
 		}
 
 		#endregion

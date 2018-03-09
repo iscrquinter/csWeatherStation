@@ -51,6 +51,8 @@ namespace HeadFirstDesignPatterns.Observer.WeatherData
 			{
 				minTemp = temperature;
 			}
+
+            Display();
 		}
 
 		#endregion
