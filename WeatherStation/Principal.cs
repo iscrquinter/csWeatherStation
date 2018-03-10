@@ -16,6 +16,7 @@ namespace WeatherStation
             CurrentConditionsDisplay currentConditionsDisplay   = new CurrentConditionsDisplay(weatherData);
             StatisticsDisplay        statisticsDisplay          = new StatisticsDisplay(weatherData);
             ForcastDisplay           forcastDisplay             = new ForcastDisplay(weatherData);
+            HeatIndexDisplay         heatIndexDisplay           = new HeatIndexDisplay(weatherData);
 
             Console.WriteLine("The Weather Station App...");
 
